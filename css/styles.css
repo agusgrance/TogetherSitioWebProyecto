@@ -79,6 +79,7 @@ a{
 
 
 footer{
+  width: 100%;
   background-color: #660099;
   display: flex;
   justify-content: center;
@@ -149,8 +150,7 @@ footer ul li a:hover{
         font-size: 2em;
         font-weight: 400;
         margin: 15px auto;
-        color: white;
-        float: left;}
+    }
     .nav .logo img{
         width: 50px;
         margin-left: 20px;
@@ -170,14 +170,12 @@ footer ul li a:hover{
   }
   @media screen and (max-width: 768px){
     .nav{
-        height: auto;
+        height: fit-content;
     }
     .nav .logo h3{
         font-size: 1.5em;
         font-weight: 600;
         margin:15px auto;
-        color: white;
-        float: left;
     }
     .nav ul li a{
             font-size: 1.1em;           
@@ -185,4 +183,44 @@ footer ul li a:hover{
     .nav .logo img{
         width: 40px;
         }
+  }
+  @media screen and (max-width: 576px){
+
+    .nav{
+       display: block;
+        align-items: center;
+    }
+
+    .nav .logo{
+        margin: 10px auto;
+        float: none;
+        align-items: center;
+        width: 37%;
+    }
+    .nav .logo img{
+        margin: 0;
+        margin-left: 15px;
+        float: none;
+    }
+    .nav .logo h3{
+        margin: 0;
+        margin-top: 5px;
+    }
+    .nav ul li{
+        display: block;
+        
+        clear: both;
+    }
+    footer{
+        width: 100%;
+        display: block;
+        
+    }
+    footer ul li{
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+    /*terminar detalles*/
   }
