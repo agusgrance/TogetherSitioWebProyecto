@@ -1,94 +1,9 @@
-@font-face {
-    font-family: 'icomoon';
-    src:  url('/fonts/icomoon.eot?ujaoju');
-    src:  url('/fonts/icomoon.eot?ujaoju#iefix') format('embedded-opentype'),
-      url('/fonts/icomoon.ttf?ujaoju') format('truetype'),
-      url('/fonts/icomoon.woff?ujaoju') format('woff'),
-      url('/fonts/icomoon.svg?ujaoju#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Mukta', sans-serif;
-}
-body{
-    background-image: url(/images/back2.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
-.nav .logo h3{
-    font-size: 3em;
-    font-weight: 400;
-    margin-left: 30px;
-    margin-top: 5px ;
-    color: white;
-    float: left;
-} 
-@keyframes animacion2{
-25% {transform: rotate(60deg) scale(1.5);}
-75% {transform: rotate(-60deg) scale(1);}
-}
-
-.nav .logo img{
-    width: 60px;
-    margin-left: 40px;
-    margin-right: 140px;
-    float: left;
-    animation: animacion 1s ease;
-}
-.logo:hover img{
-    animation: animacion2 3s ease;
-    animation-fill-mode: forwards;
-}
-.nav{
-    background-color: #660099;
-    height: 70px;
-    padding: 10px;
-}
-
-.nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-top: 20px;
-    margin-right: 35px;
-}
-
-.nav ul li a{
-    font-size: 1.7em;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    
-}
-.nav ul li a.activo{
-    text-decoration: underline;
-}
-
-.nav ul li a:hover{
-    text-decoration: underline;
-    opacity: 0.7;
-}
 
 .carousel-item img{
     width: 100%;
     text-align: center;
     cursor: pointer;
 }
-/* .banner img{
-    width: 100%;
-    height: fit-content;
-    display: block;
-    z-index: 10;
-} */
-
 header{
     margin: 40px;
     text-align: center;
@@ -131,7 +46,7 @@ header > h2{
     /* flex-direction: column; */
 }
 .texto h3{
-    font-size: 2em;
+    font-size: 1.1em;
     font-weight: 700;
     margin-bottom: 10px;
    
@@ -142,61 +57,3 @@ header > h2{
 .card:hover{
     transform: scale(1.1);
 }
-
-footer{
-    background-color: #660099;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  footer ul li{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      
-  }
-  
-  footer ul li a{
-      color: white;
-      font-size: 1.6em;
-      margin: 50px 25px;
-      text-decoration: none;
-  }
-  footer ul li a:hover{
-      text-decoration: none;
-      color: white;
-      opacity: 0.7;
-  }
-  .redes{
-      margin: 10px 25px;
-      
-  }
-  
-  .icon-facebook,
-  .icon-instagram,
-  .icon-twitter,
-  .icon-youtube{
-      font-family:'icomoon';
-  }
-  .icon-tiktok {
-      content: "\e900";
-    }
-    .icon-facebook::before {
-      content: "\ea90";
-    }
-    .icon-instagram::before {
-      content: "\ea92";
-    }
-    .icon-twitter::before {
-      content: "\ea96";
-    }
-    .icon-youtube::before {
-      content: "\ea9d";
-    }
-    .icon-twitch {
-      content: "\ea9f";
-    }
-  
-    footer p{
-        color: white;
-    }

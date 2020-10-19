@@ -1,4 +1,4 @@
-/* font-family: 'Mukta', sans-serif; */
+
 @font-face {
     font-family: 'icomoon';
     src:  url('/fonts/icomoon.eot?ujaoju');
@@ -78,15 +78,10 @@ a{
     opacity: 0.7;
 }
 .blog-container{
-    /* background-image: url(/images/back.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    
-    /* display: flex;
-    align-content: center; */
 }
 
 .blog-container > h2{
@@ -124,7 +119,6 @@ a{
 }
 
 footer{
-    /* background-color: #660099; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,7 +170,6 @@ footer{
     .icon-twitch {
       content: "\ea9f";
     }
-  
     footer p{
         color: white;
     }
