@@ -65,3 +65,27 @@ body{
 .formulario h3:hover{
     opacity: 0.8;
 }
+@media screen and (max-width: 992px){
+    .formulario h2{
+        width: 80%;
+        margin: 5px auto;
+        margin-left: 50px;
+    }
+    .items{
+        width: 95%;
+    }
+    #parrafo{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 768px){
+    .items{
+
+        margin: 0;
+        width: 100%;
+    }
+    .items input,
+.items textarea{
+    width: 100%;
+}
+}

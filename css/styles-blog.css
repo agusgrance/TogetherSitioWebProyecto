@@ -173,3 +173,86 @@ footer{
     footer p{
         color: white;
     }
+    @media screen and (max-width: 992px){
+    .nav{
+        height: 80px;
+        padding: 10px;
+        width: 100%;
+    }
+    .nav .logo h3{
+        font-size: 2em;
+        font-weight: 400;
+        margin: 15px auto;
+        color: white;
+        float: left;}
+    .nav .logo img{
+        width: 50px;
+        margin-left: 20px;
+        margin-right: 70px;
+        margin-top: 10px;
+        }
+        .nav ul li a{
+            font-size: 1.4em;            
+        }
+        .nav ul li{
+            justify-content: space-between;
+        }
+        footer ul li{
+          width: 15%;
+          margin-left: 20px;
+        }
+  }
+  @media screen and (max-width: 992px){
+    .nav{
+        height: 80px;
+        padding: 10px;
+        width: 100%;
+    }
+    .nav .logo h3{
+        font-size: 2em;
+        font-weight: 400;
+        margin: 15px auto;
+        color: white;
+        float: left;}
+    .nav .logo img{
+        width: 50px;
+        margin-left: 20px;
+        margin-right: 70px;
+        margin-top: 10px;
+        }
+        .nav ul li a{
+            font-size: 1.4em;            
+        }
+        .nav ul li{
+            justify-content: space-between;
+        }
+        footer ul li{
+          width: 15%;
+          margin-left: 20px;
+        }
+  }
+  @media screen and (max-width: 768px){
+    .nav{
+        height: auto;
+    }
+    .nav .logo h3{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin:15px auto;
+        color: white;
+        float: left;
+    }
+    .nav ul li a{
+            font-size: 1em;           
+    }
+    .nav .logo img{
+        width: 40px;
+        }
+    footer ul li{
+            width: 15%;
+            margin-left: 15px;
+          }
+    footer ul li a{
+        font-size: 1.4em;
+    }
+  }

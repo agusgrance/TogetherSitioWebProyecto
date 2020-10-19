@@ -67,6 +67,8 @@
 }
 .intro .items img{
     width: 150px;
+    height: 150px;
+    vertical-align: top;
 }
 
 .intro .items h5{
@@ -76,6 +78,14 @@
 }
 .items:hover{
     transform: scale(1.1);
+}
 
+@media screen and (max-width: 992px){
+    .intro .items h5{
+        font-size: 1.2em;
+    }
+    .box1 p{
+        font-size: 1em;
+    }
 }
 

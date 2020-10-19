@@ -25,6 +25,7 @@
 .contenedor .intro h3{
     background-color: #660099;
     width: 21%;
+    font-size: 1.7em;
     color: white;
     border-radius: 5px;
     padding: 5px;
@@ -42,4 +43,19 @@
 .contenedor p{
     font-size: 1.1em;
     margin: 30px 10px 10px;
+}
+@media screen and (max-width: 992px){
+    .contenedor .intro h3{
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 768px){
+    .contenedor .intro h3{
+        width: 90%;
+        margin: 0 20%;
+        text-align: center;
+    }
+    .contenedor .intro{
+        width: 80%;
+    }
 }
