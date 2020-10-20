@@ -82,7 +82,10 @@
 .items:hover{
     transform: scale(1.1);
 }
-
+.carousel-control-next,
+ .carousel-control-prev{
+    box-sizing: border-box;
+}
 @media screen and (max-width: 992px){
     .intro .items h5{
         font-size: 1.2em;
@@ -101,17 +104,38 @@
         height:400px;
         text-align: center;
     }
+    .slide{
+        box-sizing: border-box;
+    }
+    .carousel-control-next,
+ .carousel-control-prev{
+     margin-top: 500px;
+ }
 }
 @media screen and (max-width: 480px){
     .intro .items img{
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
     }
     .intro .items h5{
         margin: 10px;
         font-size: 1.2em;
         font-weight: 500;
     }
+    .carousel-item{
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .carousel-control-next,
+    .carousel-control-prev{
+     margin-top: 270px;
+ }
+}
+@media screen and (max-width: 480px){
+    .carousel-control-next,
+    .carousel-control-prev{
+     margin-top: 500px;
+ }
 }
 @media screen and (max-width: 375px){
     .carousel-item {
@@ -126,5 +150,15 @@
         font-size: 0.9em;
         font-weight: 400;
     }
+}
+@media screen and (max-width: 375px){
+    .carousel-control-next,
+    .carousel-control-prev{
+     margin-top: 350px;
+ }
+    .items{
+        width: 33%;
+        margin: 20px 25px;
+}
 }
 

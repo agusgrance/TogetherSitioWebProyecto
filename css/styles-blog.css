@@ -322,3 +322,30 @@ footer{
         font-size: 0.8em;
     }
   }
+  @media screen and (max-width: 411px){
+    .nav .logo{
+        width: 45%;
+    }
+    .redes>ul li{
+        width: 15%;
+        display: inline-flex;
+    }
+    .nav .logo{
+        width: 45%;
+    }
+    .redes p{
+        width: 50%;
+    }
+}
+  @media screen and (max-width: 375px){
+    .redes>ul li{
+        width: 15%;
+        display: inline-flex;
+    }
+    .redes p{
+        width: 50%;
+    }
+    .nav .logo{
+        width: 45%;
+    }
+  }
