@@ -31,3 +31,11 @@ h2{
 .items:hover{
 transform: scale(1.1);
 }
+@media screen and (max-width: 576px){
+    .imagenes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 30px auto;
+        margin-left: 12px;
+    }
+}

@@ -89,3 +89,17 @@ body{
     width: 100%;
 }
 }
+@media screen and (max-width: 576px){
+    .formulario{
+        width: 80%;
+        margin: 15px auto;
+    }
+    .formulario h2{
+        margin: 0 auto;
+        width: 85%;
+    }
+    #parrafo{
+        width: 100%;
+        padding: 0;
+    }
+}

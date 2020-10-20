@@ -18,6 +18,7 @@ body{
     background-image: url(/images/back2.png);
     background-repeat: no-repeat;
     background-size:cover;
+    width: 100%;
 }
 a{
     text-decoration: none;
@@ -195,7 +196,8 @@ footer ul li a:hover{
         margin: 10px auto;
         float: none;
         align-items: center;
-        width: 37%;
+        width: 30%;
+
     }
     .nav .logo img{
         margin: 0;
@@ -214,13 +216,20 @@ footer ul li a:hover{
     footer{
         width: 100%;
         display: block;
-        
     }
     footer ul li{
         display: block;
         text-align: center;
         width: 100%;
 
+    }
+    .redes>ul li{
+        width: 20%;
+        display: inline-flex;
+    }
+    .redes p{
+        width: 30%;
+        margin: 10px auto;
     }
     /*terminar detalles*/
   }

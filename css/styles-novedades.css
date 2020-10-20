@@ -59,3 +59,18 @@ header > h2{
         margin: auto;
     }
 }
+@media screen and (max-width: 576px){
+    .novedades-container{
+        display: block;
+    }
+    .card{
+        padding: 10px;
+        margin: 10px auto;
+        display: block;
+        width: 90%;
+        transition: none;
+    }
+    .card:hover{
+        transform: none;
+    }
+}

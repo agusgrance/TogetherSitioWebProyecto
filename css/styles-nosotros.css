@@ -59,3 +59,18 @@
         width: 80%;
     }
 }
+@media screen and (max-width: 576px){
+    .contenedor .intro{   
+        width: 100%;
+    }
+    .contenedor .intro h2{
+        width: 75%;
+        font-size:2.2em ;
+        margin: 0 auto;
+    }
+    .contenedor .intro h3{
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
