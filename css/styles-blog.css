@@ -298,30 +298,6 @@ footer{
         margin: 10px auto;
     }
   }
-  @media screen and (max-width: 375px){
-    .redes>ul li{
-        width: 15%;
-        display: inline-flex;
-    }
-    .redes p{
-        width: 50%;
-    }
-    .nav .logo{
-        width: 45%;
-    }
-    .blog-container > h2{
-        font-size: 2em;
-    }
-    .blog-container > h3{
-        font-size: 1em;
-    }
-    .cards h3{
-        font-size: 1.4em;
-    }
-    .cards p{
-        font-size: 0.8em;
-    }
-  }
   @media screen and (max-width: 411px){
     .nav .logo{
         width: 45%;
@@ -332,6 +308,20 @@ footer{
     }
     .nav .logo{
         width: 45%;
+    }
+    .redes p{
+        width: 50%;
+    }
+} @media screen and (max-width: 414px){
+    .nav .logo{
+        width: 45%;
+    }
+    .redes>ul li{
+        width: 15%;
+        display: inline-flex;
+    }
+    .nav .logo{
+        width: 50%;
     }
     .redes p{
         width: 50%;
@@ -349,3 +339,11 @@ footer{
         width: 45%;
     }
   }
+  @media screen and (max-width: 320px){
+    .nav .logo{
+        width: 50%;
+    }
+    .redes p{
+        width: 60%;
+    }
+}
