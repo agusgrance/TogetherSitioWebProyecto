@@ -39,3 +39,16 @@ transform: scale(1.1);
         margin-left: 12px;
     }
 }
+@media screen and (max-width: 480px){
+    .imagenes{
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 30px auto;
+        margin-left: 12px;
+    }
+}
+@media screen and (max-width: 375px){
+.carousel-item img{
+    height: 250px;
+}
+}

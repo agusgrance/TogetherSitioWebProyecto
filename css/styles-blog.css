@@ -173,35 +173,7 @@ footer{
     footer p{
         color: white;
     }
-    @media screen and (max-width: 992px){
-    .nav{
-        height: 80px;
-        padding: 10px;
-        width: 100%;
-    }
-    .nav .logo h3{
-        font-size: 2em;
-        font-weight: 400;
-        margin: 15px auto;
-        color: white;
-        float: left;}
-    .nav .logo img{
-        width: 50px;
-        margin-left: 20px;
-        margin-right: 70px;
-        margin-top: 10px;
-        }
-        .nav ul li a{
-            font-size: 1.4em;            
-        }
-        .nav ul li{
-            justify-content: space-between;
-        }
-        footer ul li{
-          width: 15%;
-          margin-left: 20px;
-        }
-  }
+    
   @media screen and (max-width: 992px){
     .nav{
         height: 80px;
@@ -254,5 +226,99 @@ footer{
           }
     footer ul li a{
         font-size: 1.4em;
+    }
+  }
+  @media screen and (max-width: 576px){
+
+    .nav{
+       display: block;
+        align-items: center;
+    }
+
+    .nav .logo{
+        margin: 10px auto;
+        float: none;
+        align-items: center;
+        width: 30%;
+
+    }
+    .nav .logo img{
+        margin: 0;
+        margin-left: 15px;
+        float: none;
+    }
+    .nav .logo h3{
+        margin: 0;
+        margin-top: 5px;
+    }
+    .nav ul li{
+        /* margin: 10px auto; */
+        display: block;
+        clear: both;
+    }
+    .blog-container > h2{
+        font-size: 3em;
+    }
+    .blog-container > h3{
+        font-size: 1.8em;
+    }
+    .cards h3{
+        font-size: 1.8em;
+        margin: 10px auto;
+    }
+    .cards p{
+        font-size: 1em;
+        font-weight: 400;
+    }
+    footer{
+        width: 100%;
+        display: block;
+    }
+    footer ul li{
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+    .redes>ul li{
+        width: 20%;
+        display: inline-flex;
+    }
+    .redes p{
+        width: 30%;
+        margin: 10px auto;
+    }
+  }
+  @media screen and (max-width: 480px){
+    .nav .logo{
+        width: 35%;
+    }
+    .redes p{
+        width: 40%;
+        margin: 10px auto;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .redes>ul li{
+        width: 15%;
+        display: inline-flex;
+    }
+    .redes p{
+        width: 50%;
+    }
+    .nav .logo{
+        width: 45%;
+    }
+    .blog-container > h2{
+        font-size: 2em;
+    }
+    .blog-container > h3{
+        font-size: 1em;
+    }
+    .cards h3{
+        font-size: 1.4em;
+    }
+    .cards p{
+        font-size: 0.8em;
     }
   }

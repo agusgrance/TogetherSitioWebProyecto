@@ -17,7 +17,7 @@
 body{
     background-image: url(/images/back2.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     width: 100%;
 }
 a{
@@ -209,8 +209,8 @@ footer ul li a:hover{
         margin-top: 5px;
     }
     .nav ul li{
+        /* margin: 10px auto; */
         display: block;
-        
         clear: both;
     }
     footer{
@@ -231,5 +231,25 @@ footer ul li a:hover{
         width: 30%;
         margin: 10px auto;
     }
-    /*terminar detalles*/
+  }
+  @media screen and (max-width: 480px){
+    .nav .logo{
+        width: 35%;
+    }
+    .redes p{
+        width: 40%;
+        margin: 10px auto;
+    }
+  }
+  @media screen and (max-width: 375px){
+    .redes>ul li{
+        width: 15%;
+        display: inline-flex;
+    }
+    .redes p{
+        width: 50%;
+    }
+    .nav .logo{
+        width: 45%;
+    }
   }

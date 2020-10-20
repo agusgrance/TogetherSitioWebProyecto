@@ -91,7 +91,7 @@ body{
 }
 @media screen and (max-width: 576px){
     .formulario{
-        width: 80%;
+        width: 90%;
         margin: 15px auto;
     }
     .formulario h2{
@@ -102,4 +102,16 @@ body{
         width: 100%;
         padding: 0;
     }
+}
+@media screen and (max-width: 480px){
+    .formulario{
+        width: 100%;
+        margin: 15px auto;
+    }
+}
+@media screen and (max-width: 375px){
+.formulario h2{
+    font-size: 1.8em;
+    width: 100%;
+}
 }

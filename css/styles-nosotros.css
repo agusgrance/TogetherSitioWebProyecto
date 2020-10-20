@@ -74,3 +74,19 @@
         text-align: center;
     }
 }
+@media screen and (max-width: 480px){
+    .contenedor .intro h2{
+        font-size: 1.8em;
+    }
+    .contenedor .intro h3{
+        font-size: 1.4em;
+    }
+    .contenedor h4{
+        font-size: 1.6em;
+    }
+}
+@media screen and (max-width: 375px){
+    .contenedor{
+        width: 100%;
+    }
+}
